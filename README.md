@@ -130,6 +130,26 @@ pip install -e .[test]
 pytest
 ```
 
+## Release
+
+```
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install the packaging tools inside it
+python -m pip install --upgrade pip build twine
+
+# Build the package
+python -m build
+
+# Upload to TestPyPI
+python -m twine upload --repository testpypi dist/*
+
+# Upload to PyPI
+python -m twine upload dist/*
+```
+
 ## Support (Sponsorship)
 
 If you'd like to contribute financially towards the efforts, please consider these options:
