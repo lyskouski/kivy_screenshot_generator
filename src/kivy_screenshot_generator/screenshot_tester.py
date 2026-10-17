@@ -1,6 +1,3 @@
-# Copyright 2026 The terCAD team. All rights reserved.
-# Use of this source code is governed by a MIT license that can be found in the LICENSE file.
-
 """Interaction helpers for screenshot steps (Kivy counterpart of Flutter's `WidgetTester`).
 
 Imported only inside the screenshot process: it pulls in the Kivy window.

@@ -1,6 +1,3 @@
-# Copyright 2026 The terCAD team. All rights reserved.
-# Use of this source code is governed by a MIT license that can be found in the LICENSE file.
-
 import os
 
 from kivy.app import App
@@ -49,8 +46,8 @@ BoxLayout:
 '''
 
 TEXTS = {
-    'en_US': ('Flutter Demo Home Page', 'You have pushed the button this many times:'),
-    'de_DE': ('Flutter-Demo-Startseite', 'So oft wurde der Knopf gedrückt:'),
+    'en_US': ('Demo Home Page', 'You have pushed the button this many times:'),
+    'de_DE': ('Demo-Startseite', 'So oft wurde der Knopf gedrückt:'),
 }
 
 

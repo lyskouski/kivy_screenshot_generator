@@ -1,6 +1,3 @@
-# Copyright 2026 The terCAD team. All rights reserved.
-# Use of this source code is governed by a MIT license that can be found in the LICENSE file.
-
 """Generate screenshots for a Kivy application across different screens and languages."""
 
 from .device_config import DeviceConfig, EdgeInsets, PlatformDevices, TargetPlatform

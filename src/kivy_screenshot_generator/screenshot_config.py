@@ -1,6 +1,3 @@
-# Copyright 2026 The terCAD team. All rights reserved.
-# Use of this source code is governed by a MIT license that can be found in the LICENSE file.
-
 from dataclasses import dataclass, field
 
 from .device_config import PlatformDevices, TargetPlatform
