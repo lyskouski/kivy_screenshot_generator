@@ -51,7 +51,7 @@ def test_device_names_are_unique():
     assert len(names) == len(set(names))
 
 
-def test_folder_names_match_flutter():
+def test_folder_names_match():
     assert PlatformDevices.IPHONE_15_PRO.folder_name == 'iPhone_15_Pro'
     assert PlatformDevices.IPAD_10_5DM.folder_name == 'iPad_10.5dm'
     assert PlatformDevices.by_name('iPad_10.5dm') is PlatformDevices.IPAD_10_5DM
